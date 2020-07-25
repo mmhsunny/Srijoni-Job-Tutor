@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+           <img src="images/logo.jpg" class="logo">
+           <div class="header-text">
+
+              <h1>SRIJONI JOB TUTOR</h1>
+              <h2>The purpose is<br>to make life easier</h2>
+              <span class="square"></span>
+              <p>A platfrom to provide a job market at your reach.So that,You can choose any career with ease & achieve it without any hussle.</p>
+                <button class="common-btn">Read more</button>
+
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+           </div>
+           </div>
+
+
+        
+
+
+
+
+    </section>
+    <nav id="sidenav">
+        <ul>
+            <li><a href="#header">HOME</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#features">FEATURES</a></li>
+            <li><a href="#courses">COOUSES</a></li>
+            <li><a href="#offer">OFFER</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <img src="images/menu.png" id="menuBtn">
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sidenav = document.getElementById("sidenav");
+
+        sidenav.style.right = "-250px";
+        menuBtn.onclick = function(){
+            if(sidenav.style.right =="-250px"){ sidenav.style.right = "0";}
+            else
+            {
+                sidenav.style.right = "-250px";
+            }
+        }
+    </script>
+
+    <!--about-->
+    <section id="about">
+        <div class="about-left-col">
+            <img src="images/index1.png">
+        </div>
+        <div class="about-right-col">
+        <div class="about-text">
+            <h1>About Us</h1>
+            <span class="square"></span>
+            <p>We are pioneer in the sector here to bring a job market at your hand.Our mission is to reduce poverty by creating efficiency in you,so that unemployed people can get a desired job easily.We are common people with a view that everything is possible,if you can choose the path specifically.</p><br><br>
+            
+            <div class="line">
+                <span class="line-1"></span><br>
+                <span class="line-2"></span><br>
+                <span class="line-3"></span>
+            </div>
+            
+            <h2>"Learning is nothing as hard to achieve but you have to possess certain quality such as sincerity,deligency & efficiency"</h2>
+            <h3>-SRIJONI</h3>
+        </div>
+    </div>
+    </section>
+
+    <!--features-->
+    <section id="features">
+        <div class="feature-row">
+            <div class="feature-col">
+                <img src="images/col1.jpg">
+                <h4>Learn with heart</h4>
+                <p>Grow with us between your computer,tablet or mobile device</p>
+            </div>
+            <div class="feature-col">
+                <img src="images/col2.png">
+                <h4>Expert Teachers</h4>
+                <p>Learn from experts who are assigned to provide best practice to you</p>
+            </div>
+            <div class="feature-col">
+                <img src="images/col3.jpg">
+                <h4>Unlimited Access</h4>
+                <p>Choose what you'd like to learn from our extensive subscription library.</p>
+            </div>
+        </div>
+        <div class="feature-btn">
+            <div class="line">
+                <span class="line-1"></span><br>
+                <span class="line-2"></span><br>
+                <span class="line-3"></span>
+            </div>
+            <button class="common-btn">Start Free Trial </button>
+
+        </div>
+    </section>
+    <!---courses-->
+    <section id="courses">
+        <div class="container course-row">
+            <div class="course-left-col">
+                <div class="course-text">
+                    <h1>Browse our top<br>courses</h1>
+                    <p>We design a number of courses that must be on your help getting effective and lessen the burden on your dear ones</p>
+               
+                    <button class="common-btn">View All Courses </button>
+
+                </div>
+            </div>
+            <div class="course-right-col">
+                <img src="images/col4.png">
+            </div>
+        </div>
+
+    </section>
+    <!--------offer-->
+    <section id="offer">
+        <div class="about-left-col">
+            <img src="images/index5.jpg">
+        </div>
+        <div class="about-right-col">
+        <div class="about-text">
+            <h1>Limitless learning<br>Limitless possibilities</h1>
+            <span class="square"></span>
+            <p>We offer a wide range of courses that are compatible with current job market.You can choose any of them & get accelerated with ease.</p>
+            
+            <button class="common-btn">Start Free Trial </button>
+            <div class="line">
+                <span class="line-1"></span><br>
+                <span class="line-2"></span><br>
+                <span class="line-3"></span>
+            </div>
+            
+            
+        </div>
+    </div>
+    </section>
+    <!------contact-->
+    <section id="contact">
+
+        <div class="container contact-row">
+            <div class="contact-left-col">
+              <h1>Sign Up to join our<br>learning community</h1>
+              <form>
+                  <input type="text" placeholder="Enter Name">
+                  <input type="email" placeholder="Enter email">
+                  <input type="password" placeholder="Enter password">
+                  <div class="btn=box">
+                    <button class="common-btn">Sign Up</button>
+                    <button class="common-btn">Start Free Trial </button>
+
+                  </div>
+              </form>
+            </div>
+            <div class="contact-right-col">
+                <img src="images/index2.jpg">
+                
+            </div>
+
+
+        </div>
+
+        
+    </section>
+<!---footer----->
+
+<section id="footer">
+    <div class="container footer-row">
+        <hr>
+        <div class="footer-left-col">
+           <div class="footer-links">
+               <div class="link-title">
+                   <h4>Product</h4>
+                   <small>Our Plan</small><br>
+                   <small>Free Trial</small>
+               </div>
+               <div class="link-title">
+                <h4>About Us</h4>
+                <small>Request Demo</small><br>
+                <small>FAQs</small>
+            </div> 
+
+             
+               <div class="link-title">
+                   <h4>Support</h4>
+                   <small>Features</small><br>
+                   <small>Contact Us</small>
+               </div>
+               
+                <div class="link-title">
+                    <h4>Explore</h4>
+                    <small>Find a nonprofit</small><br>
+                    <small>Corporate solution</small>
+                </div>
+
+            </div>
+        </div>
+    
+        <div class="footer-right-col">
+           <div class="footer-info">
+               <div class="copyright-text">
+                   <small>Support@srijonijobtutor.com</small><br>
+                   <small>Copyright 2020 Srijoni</small>
+
+
+               </div>
+
+               <div class="footer-logo">
+                  <img src="images/logo.jpg">
+                  <button class="common-btn">English </button>
+            </div>
+        </div>
+    </div>
+    
+    
+
+</section>
+<!------social icons-->
+
+<div class="social-icons">
+    <img src="images/f1.jpg">
+    <img src="images/f2.png">
+    <img src="images/f3.png">
+    <img src="images/f4.jpg">
+    
+</div>
+
+
+
+
+
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+    
+</body>
+</html>
